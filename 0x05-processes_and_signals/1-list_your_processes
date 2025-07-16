@@ -1,4 +1,4 @@
-#!/bin/bash
-# Script to list all running processes in a tree-like hierarchy
+#!/usr/bin/env bash
+# Displays all running processes in a user-friendly hierarchical format including background processes
 
 ps -eo user,pid,ppid,%cpu,%mem,vsz,rss,tty,stat,start,time,command --forest
